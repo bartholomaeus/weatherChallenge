@@ -10,7 +10,7 @@ Innerhalb von R benutze ich die packages `data.table`, `lubridate` und `tidyvers
 
 ## Wahl der Datenquellen
 
-Hier habe ich mich im allgemeinen an den Angaben aus der Aufgabenstellung gehalten. In einem Punkt bin ich jedoch davon abgewichen. Anstatt der jährlichen Daten für jeweils alle Wetterstationen weltweit benutze ich die stationsbezogenen Daten aus diesem Verzeichnis: https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/all/. Diese Entscheidung basiert darauf, daß ich hier mit weitaus kleineren Datenmengen arbeiten muss, da ich gezielt nach Stationen filtern kann. Dies erhöht die Code-Performance messbar.
+Hier habe ich mich im allgemeinen an den Angaben aus der Aufgabenstellung orientiert. In einem Punkt bin ich jedoch davon abgewichen. Anstatt der jährlichen Daten für jeweils alle Wetterstationen weltweit benutze ich die stationsbezogenen Daten aus diesem Verzeichnis: https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/all/. Diese Entscheidung basiert darauf, daß ich hier mit weitaus kleineren Datenmengen arbeiten muss, da ich gezielt nach Stationen filtern kann. Dies erhöht die Code-Performance messbar.
 
 ## Datenmodell
 
@@ -18,7 +18,7 @@ Als einfaches Datenmodell wähle ich eine Faktentabelle, die Wetterstation und S
 
 Darum angeordnet sind die Dimensionstabellen für die Städte, Wetterstationen sowie die Entfernung zwischen diesen.
 
-Das Datenmodell wird mittels der Datei `createDataModel.R` erstellt.
+Das Datenmodell wird mittels der Datei [createDataModel.R](https://github.com/bartholomaeus/weatherChallenge/blob/master/createDataModel.R) erstellt.
 
 ## Erstellen der Dimensionstabellen
 
@@ -26,7 +26,7 @@ Das Datenmodell wird mittels der Datei `createDataModel.R` erstellt.
 
 Die Daten zu deutschen Städten vom ADFC werden in der Funktion `getCityData` importiert und vorgefiltert. Als Datenpunkte wähle ich von jeder Stadt die ID, den Namen sowie die Geo-Koordinaten. Da die Liste nicht ganz sauber gepflegt ist und einige Städte mehrfach enthalten sind, setze ich auch hier den Filter, dass alle Städte, die innerhalb 0.01 Grad Breite bzw. 0.02 Grad Länge liegen, als eine Stadt identifiziert und Duplikate herausgefiltert werden. 
 
-Der Import sowie das vorläufige Filtern der Wetterstationsdaten geschieht in der Funktion `getStationData`. Als Muster der deutschen Stationen habe ich erkannt, dß deren ID mit `GM` beginnt und konnte somit im ersten Schritt die Anzahl der infrage kommenden Wetterstationen signifikant verringern. Auch hier wähle ich als Datenpunkte die ID, den Namen der Station sowie die Längen- und Breitengrade. Für die weitere Analyse wird nicht mehr benötigt.
+Der Import sowie das vorläufige Filtern der Wetterstationsdaten geschieht in der Funktion `getStationData`. Als Muster der deutschen Stationen habe ich erkannt, daß deren ID mit `GM` beginnt und konnte somit im ersten Schritt die Anzahl der infrage kommenden Wetterstationen signifikant verringern. Auch hier wähle ich als Datenpunkte die ID, den Namen der Station sowie die Längen- und Breitengrade. Für die weitere Analyse wird nicht mehr benötigt.
 
 ### Zuordnung der Städte zu den Wetterstationen
 
@@ -42,19 +42,19 @@ Die Daten werden im Folgenden nach den Maximaltemperaturen gefiltert und mit fol
 
 ## Lösung der Aufgaben
 
-Die Lösungen für die folgenden Aufgaben werden mittels des Scripts `weatherChallenge.R` bestimmt.
+Die Lösungen für die folgenden Aufgaben werden mittels des Scripts [weatherChallenge.R](https://github.com/bartholomaeus/weatherChallenge/blob/master/weatherChallenge.R) bestimmt.
 
-### Aufgabe 1: Berechne den Median der Maximaltemperaturen für jede der Stationen für jeden Tag!
+### Aufgabe 1: Berechnen Sie den Median der Maximaltemperaturen für jede der Stationen für jeden Tag!
 
 Hier ist bei den Ergebnissen zu beachten, dass bis 1884 nur eine Stadt Daten liefert (Jena) und somit die Mediantemperatur nicht sehr repräsentativ für Deutschland ist. Ab 1936 sind 11 Städte in den Daten enthalten, 1947 sind es schon 50.
 
 Die Ergebnisse der Analyse sind in [task1.csv](https://github.com/bartholomaeus/weatherChallenge/blob/master/task1.csv) zu finden.
 
-### Aufgabe 2: Berechne für jede der Städte das arithmetische Mittel der Maximaltemperaturen in 2019!
+### Aufgabe 2: Berechnen Sie für jede der Städte das arithmetische Mittel der Maximaltemperaturen in 2019!
 
-Die Lösung dieser Aufgabe ist recht straightforward, die Ergebnisse zeigt [task2.csv](https://github.com/bartholomaeus/weatherChallenge/blob/master/task2.csv).
+Die Lösung dieser Aufgabe ist recht geradeheraus, die Ergebnisse zeigt [task2.csv](https://github.com/bartholomaeus/weatherChallenge/blob/master/task2.csv).
 
-### Bonusaufgabe: Erstelle ein Ranking der Städte, die für die längste zusammenhängende Periode die höchste Temperatur in Deutschland verzeichnet haben!
+### Bonusaufgabe: Erstellen Sie ein Ranking der Städte, die für die längste zusammenhängende Periode die höchste Temperatur in Deutschland verzeichnet haben!
 
 Hier mache ich mir die R-Funktion `rle` (run length encoding) zunutze, was die Bearbeitung der Aufgabe auch recht simpel macht. Das macht R als Data Engine sehr attraktiv, in SQL wäre diese Analyse ungleich komplizierter.
 
