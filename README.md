@@ -48,11 +48,11 @@ Die Lösungen für die folgenden Aufgaben werden mittels des Scripts `weatherCha
 
 Hier ist bei den Ergebnissen zu beachten, dass bis 1884 nur eine Stadt Daten liefert (Jena) und somit die Mediantemperatur nicht sehr repräsentativ für Deutschland ist. Ab 1936 sind 11 Städte in den Daten enthalten, 1947 sind es schon 50.
 
-Die Ergebnisse der Analyse sind in [task1.csv](https://github.com/bartholomaeus/weatherChallenge/blob/master/task1.csv zu finden.
+Die Ergebnisse der Analyse sind in [task1.csv](https://github.com/bartholomaeus/weatherChallenge/blob/master/task1.csv) zu finden.
 
 ### Aufgabe 2: Berechne für jede der Städte das arithmetische Mittel der Maximaltemperaturen in 2019!
 
-Die Lösung dieser Aufgabe ist recht straightforward, die Ergebnisse zeigt [task2.csv](https://github.com/bartholomaeus/weatherChallenge/blob/master/task2.csv.
+Die Lösung dieser Aufgabe ist recht straightforward, die Ergebnisse zeigt [task2.csv](https://github.com/bartholomaeus/weatherChallenge/blob/master/task2.csv).
 
 ### Bonusaufgabe: Erstelle ein Ranking der Städte, die für die längste zusammenhängende Periode die höchste Temperatur in Deutschland verzeichnet haben!
 
