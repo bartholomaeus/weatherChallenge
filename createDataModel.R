@@ -3,6 +3,9 @@ library(tidyverse)
 library(lubridate)
 library(parallel)
 
+##########################################################################################################
+## Definition der Variablen für URLs und Filterbedingungen
+
 urlCities      <- 'http://www.fa-technik.adfc.de/code/opengeodb/DE.tab'
 urlStations    <- 'https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd-stations.txt'
 urlWeatherData <- 'https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/all/'
@@ -13,6 +16,8 @@ minLonDistCities <- 0.02
 minLatDistCityStation <- 0.01
 minLonDistCityStation <- 0.02
 
+##########################################################################################################
+## Funktionsdefinitionen
 
 getCityData <- function(url = urlCities, 
                         minLatDist = minLatDistCities, 
@@ -122,7 +127,8 @@ getFactTable <- function(dimTab = dimTables) {
   
 }
 
-
+##########################################################################################################
+## Erstellung der Tabellen
 
 dimTables <- createDimensionTables()
 

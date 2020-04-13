@@ -1,0 +1,159 @@
+﻿ID_city;name;longestStreak
+25447;Vogtsburg im Kaiserstuhl;11
+21784;Norderney; 8
+23061;Rheinfelden (Baden); 8
+26559;Zeitz, Elster; 8
+20149;Lenzen (Elbe); 7
+21171;Müllheim (Baden); 7
+24306;Sinsheim (Elsenz); 7
+  452;Trier; 6
+13948;Bad Lauchstädt; 6
+26037;Westerland; 6
+13878;Bad Blankenburg; 5
+14781;Borkum; 5
+16245;Eppingen; 5
+16633;Freiburg im Breisgau; 5
+16901;Geisenheim; 5
+18123;Heitersheim; 5
+18153;Hemer; 5
+19488;Knittlingen; 5
+20287;Lingen (Ems); 5
+22191;Oschatz; 5
+24289;Simbach am Inn; 5
+25435;Völklingen; 5
+25513;Waghäusel; 5
+  567;Jena; 4
+13350;Aach (Hegau); 4
+13688;Annaberg-Buchholz; 4
+13940;Bad Kösen; 4
+13953;Bad Liebenzell; 4
+13973;Bad Reichenhall; 4
+14285;Bensheim; 4
+14377;Bernkastel-Kues; 4
+16059;Einbeck; 4
+16237;Eppelheim (Baden); 4
+17107;Glückstadt; 4
+18695;Hoyerswerda; 4
+19830;Kyritz; 4
+21382;Neudenau; 4
+22697;Quedlinburg; 4
+23750;Schleswig; 4
+24812;Tangermünde; 4
+  255;Kempten (Allgäu); 3
+  405;Passau; 3
+  413;Bonn; 3
+  527;Offenbach am Main; 3
+13734;Arneburg; 3
+13893;Bad Dürkheim an der Weinstraße; 3
+13900;Bad Ems; 3
+13961;Bad Nauheim; 3
+14867;Braunlage; 3
+14979;Brilon; 3
+15743;Donaueschingen; 3
+15915;Ebersbach an der Fils; 3
+16713;Friedrichshafen; 3
+16968;Gernrode, Harz; 3
+17886;Harburg (Schwaben); 3
+18074;Heilbronn (Neckar); 3
+18478;Hofheim in Unterfranken; 3
+18761;Husum, Nordsee; 3
+19345;Kitzingen; 3
+19781;Künzelsau; 3
+20445;Lüchow (Wendland); 3
+20611;Marienberg, Erzgebirge; 3
+20732;Mayen; 3
+20893;Metzingen (Württemberg); 3
+22052;Ochtrup; 3
+22074;Öhringen; 3
+22507;Plön / Holstein; 3
+22712;Quickborn, Kreis Pinneberg; 3
+23472;Sachsenheim (Württemberg); 3
+26584;Zerbst/Anhalt; 3
+35741;Arnis; 3
+  248;Augsburg; 2
+  324;Braunschweig; 2
+  443;Neustadt an der Weinstraße; 2
+  446;Pirmasens; 2
+  497;Schweinfurt; 2
+  575;Weimar; 2
+13745;Artern / Unstrut; 2
+13795;Aue, Sachsen; 2
+13869;Bad Bergzabern; 2
+13913;Bad Frankenhausen / Kyffhäuser; 2
+13935;Bad Kissingen; 2
+14632;Bocholt; 2
+14842;Brake (Unterweser); 2
+15288;Celle; 2
+15650;Dissen am Teutoburger Wald; 2
+15896;Ebeleben; 2
+15903;Eberbach (Baden); 2
+16149;Elsfleth; 2
+16335;Esens; 2
+18205;Herford; 2
+18244;Herrnhut; 2
+18835;Ingelfingen; 2
+19802;Kulmbach; 2
+20271;Lindenberg im Allgäu; 2
+20450;Lüdenscheid; 2
+20550;Mainburg; 2
+20592;Manderscheid, Eifel; 2
+20759;Meersburg (Bodensee); 2
+21454;Neuhaus am Rennweg; 2
+21560;Neustadt an der Aisch; 2
+21816;Nossen; 2
+23337;Roth, Mittelfranken; 2
+24302;Singen (Hohentwiel); 2
+25121;Trostberg; 2
+25170;Überlingen (Bodensee); 2
+25730;Wasserburg am Inn; 2
+25814;Weilburg; 2
+25841;Weingarten (Württemberg); 2
+25844;Weinsberg; 2
+25858;Weismain; 2
+  228;Hof; 1
+  338;Wolfsburg; 1
+  605;Ansbach; 1
+  620;Schwabach; 1
+13884;Bad Brückenau; 1
+13992;Bad Segeberg; 1
+14143;Bassum; 1
+14200;Beerfelden, Odenwald; 1
+14472;Biedenkopf; 1
+15077;Buchen (Odenwald); 1
+15308;Cloppenburg; 1
+15342;Crimmitschau; 1
+15629;Dillingen an der Donau; 1
+15855;Duderstadt, Niedersachsen; 1
+16215;Engen (Hegau); 1
+16325;Eschenbach in der Oberpfalz; 1
+16843;Gartz (Oder); 1
+16905;Geisingen (Baden); 1
+16961;Geringswalde; 1
+17021;Giengen an der Brenz; 1
+17954;Hasselfelde; 1
+18235;Herrenberg (im Gäu); 1
+18633;Homberg (Ohm); 1
+18953;Jeßnitz (Anhalt); 1
+20313;Bad Lobenstein; 1
+20784;Meinerzhagen; 1
+20801;Melle, Wiehengeb; 1
+20912;Michelstadt; 1
+21227;Murrhardt; 1
+21263;Nastätten; 1
+21374;Neubulach; 1
+22692;Quakenbrück; 1
+22816;Rastenberg; 1
+23098;Riedlingen (Württemberg); 1
+23188;Rodewisch; 1
+23347;Rothenburg ob der Tauber; 1
+23677;Scheßlitz; 1
+23950;Schotten, Hessen; 1
+24013;Schwanebeck bei Oschersleben; 1
+24371;Sontra; 1
+24616;Stockach (Baden); 1
+25084;Treuen, Vogtland; 1
+25532;Waibstadt; 1
+25564;Waldeck; 1
+25594;Waldsassen; 1
+25660;Waltershausen; 1
+25924;Welzheim; 1

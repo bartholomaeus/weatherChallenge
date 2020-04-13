@@ -18,7 +18,7 @@ task2 <- factTable %>%
   as.data.table()
 
 maxTemp <- factTable %>% 
-  filter(date_of_day >= '1950-01-01') %>%
+  filter(date_of_day >= '1947-01-01') %>%
   group_by(date_of_day) %>% 
   top_n(1, TMAX) %>%
   arrange(date_of_day) %>% 
